@@ -1,0 +1,148 @@
+/* RTL & Urdu Typography */
+body[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', 'Urdu Typesetting', Tahoma, Arial, sans-serif;
+    line-height: 2.3;
+}
+
+body[dir="rtl"] h1, 
+body[dir="rtl"] h2, 
+body[dir="rtl"] h3, 
+body[dir="rtl"] h4, 
+body[dir="rtl"] h5, 
+body[dir="rtl"] h6 {
+    line-height: 2.1 !important;
+    margin-bottom: 0.6rem;
+}
+
+body[dir="rtl"] p, 
+body[dir="rtl"] span, 
+body[dir="rtl"] div, 
+body[dir="rtl"] label {
+    line-height: 2.2;
+}
+
+body[dir="rtl"] .form-label {
+    line-height: 2.1 !important;
+    margin-bottom: 0.4rem;
+}
+
+body[dir="rtl"] .form-control,
+body[dir="rtl"] .form-select,
+body[dir="rtl"] .input-group-text {
+    line-height: 2.1 !important;
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+}
+
+body[dir="rtl"] .table-custom td, 
+body[dir="rtl"] .table-custom th,
+body[dir="rtl"] .table td,
+body[dir="rtl"] .table th {
+    line-height: 2.3 !important;
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    vertical-align: middle;
+}
+
+body[dir="rtl"] .btn {
+    line-height: 2.0 !important;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+body[dir="rtl"] .badge,
+body[dir="rtl"] .badge-status {
+    line-height: 1.8 !important;
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+}
+
+body[dir="rtl"] #sidebar .nav-link {
+    line-height: 2.2 !important;
+    padding: 10px 18px;
+    text-align: right;
+}
+
+body[dir="rtl"] #sidebar .sidebar-heading {
+    line-height: 2.0 !important;
+}
+
+body[dir="rtl"] .dropdown-item {
+    line-height: 2.1 !important;
+    padding: 8px 16px;
+    text-align: right;
+}
+
+body[dir="rtl"] .card-title,
+body[dir="rtl"] .card-header,
+body[dir="rtl"] .kpi-title,
+body[dir="rtl"] .kpi-value {
+    line-height: 2.0 !important;
+}
+
+body[dir="rtl"] .alert {
+    line-height: 2.1 !important;
+}
+
+body[dir="rtl"] #sidebar {
+    right: 0;
+    left: auto;
+}
+
+body[dir="rtl"] #sidebar .brand {
+    flex-direction: row-reverse;
+}
+
+body[dir="rtl"] .dropdown-menu {
+    text-align: right;
+}
+
+body[dir="rtl"] .dropdown-menu-end {
+    right: auto !important;
+    left: 0 !important;
+}
+
+body[dir="rtl"] .ms-auto {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
+
+body[dir="rtl"] .me-auto {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+}
+
+body[dir="rtl"] .text-end {
+    text-align: left !important;
+}
+
+body[dir="rtl"] .text-start {
+    text-align: right !important;
+}
+
+body[dir="rtl"] .border-start {
+    border-right: 1px solid var(--border-color) !important;
+    border-left: none !important;
+}
+
+body[dir="rtl"] .border-end {
+    border-left: 1px solid var(--border-color) !important;
+    border-right: none !important;
+}
+
+@media (max-width: 991.98px) {
+    body[dir="rtl"] #sidebar {
+        right: -260px;
+        left: auto;
+    }
+    body[dir="rtl"] #sidebar.show {
+        right: 0;
+    }
+}
